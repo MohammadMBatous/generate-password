@@ -1,0 +1,20 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root {
+    --color-blue:#439BFF;
+    --color-black:#454141;
+    --color-blue-dark:#3167FF;
+    --color-white:#E4E4E4;
+}
+html , body {
+    min-height: 100%;
+
+}
+::selection {
+    background-color: var(--color-white);
+    color: var(--color-blue);
+}
